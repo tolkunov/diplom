@@ -6,24 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>Книги</title>
+    <title>Книголюб</title>
 </head>
 <body>
     <header>
         <div class="header-left">
-            <div class="catalog">
-                <span class="material-icons" style="font-size: 46px">menu_book</span>Каталог
-            </div>
-            <div class="name">Книжный</div>
+            <a class="open-link" href="#catalog-open">
+                <div class="catalog">
+                    <span class="material-icons" style="font-size: 46px">menu_book</span>Каталог
+                </div>
+            </a>
+        </div>
+        <div class="search">
+            <input type="text" id="search" placeholder="🔍︎ Поиск">
         </div>
         <div class="header-right">
-            <div class="cart">
-                Корзина
-            </div>
+            <a href="discounts.html">
+                <div class="discounts">
+                    Акции
+                </div>
+            </a>
             <div class="cab">
                 Личный<br>кабинет
             </div>
         </div>
     </header>
+    <div class="container">
+        <div class="name">
+            <span style="font-size: 10vh; font-weight: 700; text-shadow: 1px 1px 2px rgba(38, 35, 33, 0.6);">Книголюб</span><br>
+            <span style="font-size: 3vh; font-weight: 500;">Добро пожаловать в наш магазин! Здесь вас ждет большой ассортимент по самым выголным ценам.</span>
+        </div>
+        
+    </div>
+    <footer></footer>
+    <div id="catalog-open" class="catalog-open">
+        <div class="catalog-open-body">
+            <div class="catalog-open-container">
+                <div class="catalog-section" style="border-top-left-radius: 14px; border-top-right-radius: 14px;">Художественная литература</div>
+                <div class="catalog-section">Искусство</div>
+                <div class="catalog-section">Учебная литература</div>
+                <div class="catalog-section">Научная литература</div>
+                <div class="catalog-section">Психология</div>
+                <div class="catalog-section">Для детей</div>
+                <div class="catalog-section">Бизнес и экономика</div>
+                <div class="catalog-section">Иностранные языки</div>
+                <div class="catalog-section" style="border-bottom: none; border-end-start-radius: 14px; border-end-end-radius: 14px;">История и политика</div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
