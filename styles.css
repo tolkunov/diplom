@@ -94,7 +94,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-	text-align: center;
     color: #262321;
     border-right: solid 1px #fed;
     transition: 0.2s;
@@ -111,7 +110,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-	text-align: center;
     color: #262321;
     border-left: solid 1px #fed;
     transition: 0.2s;
@@ -183,6 +181,7 @@ header {
     border-bottom: 3px rgb(150, 138, 126) solid;
     font-size: 24px;
     font-weight: 400;
+    color: #262321;
     transition: 0.2s;
 }
 
@@ -191,13 +190,45 @@ header {
     cursor: pointer;
 }
 
+.discount-block {
+    border: solid 5px rgb(90, 84, 76);
+    background-color: #fed;
+    color: #262321;
+    width: 100%;
+    height: 200px;
+    margin: 60px auto;
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.2s;
+}
+
+.discount-block:hover {
+    opacity: 0.9;
+}
+
+.discount-name {
+    width: 50%;
+    text-align: center;
+    font-size: 30px; 
+    font-weight: 500;
+    /* background-color:rgba(0, 0, 0, 0.25); */
+}
+
+.discount-img {
+    /* background-color: aqua; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
 footer {
-	width: 100%;
-	height: 180px;
-	background-color: #4f4c4a;
-	color: #ede6df;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+    background-color: #262321;
+    height: 12vh;
+    text-align: center;
+    color: white;
+    padding: 40px;
 }
