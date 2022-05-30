@@ -34,3 +34,13 @@ document.addEventListener('keydown', function (e) {
         folderClose(folderActive);
     }
 });
+
+
+const cartLinks = document.querySelectorAll('.to-cart');
+
+for (let index = 0; index < cartLinks.length; index++) {
+    const cartLink = cartLinks[index];
+    cartLink.addEventListener("click", function (e) {
+        alert("Корзина временно недоступна");
+    });
+}

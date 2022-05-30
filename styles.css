@@ -150,7 +150,7 @@ header {
     position: absolute;
     top: 100px;
     left: 41px;
-    height: 576px;
+    height: 430px;
     width: 238px;
     border-radius: 14px;
     transform: translate(-200%, 0);
@@ -190,6 +190,80 @@ header {
     cursor: pointer;
 }
 
+.main-page {
+    width: 90%;
+	background-color: rgba(255, 207, 185, 0.253);
+    box-shadow: 0px 0px 40px 7px rgba(255, 207, 185, 0.253);
+    margin: 50px auto;
+    padding: 20px 30px;
+    border-radius: 20px;
+    font-size: 40px;
+}
+
+.main-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-block {
+    width: 260px;
+    height: 480px;
+    margin-top: 30px;
+    background-color: rgb(165, 151, 138);
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.main-title {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    /* color: rgb(218, 209, 230); */
+}
+
+.main-preview {
+    width: 260px;
+    height: 320px;
+    border-top: 2px solid rgb(119, 110, 100);
+    border-bottom: 2px solid rgb(119, 110, 100);
+}
+
+.main-download {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: center;
+    /* background-color: #d1c0b0; */
+}
+
+.main-price {
+    width: 24%;
+    color: lightgray;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.main-butt {
+    color: rgb(255, 207, 185);
+    border: solid 3px rgb(255, 207, 185);
+    font-family: inherit;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 28px;
+    transition: 0.3s;
+}
+
+.main-butt:hover {
+    background-color: rgb(255, 207, 185);
+    color: rgb(165, 151, 138);
+    cursor: pointer;
+}
+
 .discount-block {
     border: solid 5px rgb(90, 84, 76);
     background-color: #fed;
@@ -225,9 +299,15 @@ header {
     justify-content: center;
 }
 
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .block {
-    width: 340px;
-    height: 600px;
+    width: 300px;
+    height: 584px;
     margin-top: 30px;
     background-color: rgb(165, 151, 138);
     border-radius: 30px;
@@ -238,14 +318,13 @@ header {
     height: 80px;
     line-height: 80px;
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 500;
     color: white;
-    /* color: rgb(218, 209, 230); */
 }
 
 .preview {
-    width: 340px;
+    width: 300px;
     height: 420px;
     border-top: 2px solid rgb(119, 110, 100);
     border-bottom: 2px solid rgb(119, 110, 100);
@@ -254,7 +333,7 @@ header {
 .download {
     display: flex;
     align-items: center;
-    height: 86px;
+    height: 76px;
     justify-content: center;
 }
 
@@ -272,7 +351,7 @@ header {
     font-family: inherit;
     border-radius: 10px;
     font-size: 22px;
-    padding: 16px 46px;
+    padding: 10px 38px;
     transition: 0.3s;
 }
 
